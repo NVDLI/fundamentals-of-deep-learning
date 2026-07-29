@@ -90,7 +90,6 @@ Please do not commit datasets or large binary files — use download scripts ins
 See [CONTRIBUTING](CONTRIBUTING.md) for full guidelines.
 
 ## License
-## License
 
 This repository uses a mixed licensing model:
 
