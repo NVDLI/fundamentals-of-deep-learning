@@ -1,0 +1,19 @@
+Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES.
+
+This repository contains material under multiple licenses.
+
+1. Source-code files and code cells in Jupyter notebooks are licensed under
+   the Apache License 2.0. See LICENSES/Apache-2.0.txt.
+
+2. Documentation, Markdown and raw cells in Jupyter notebooks, and
+   NVIDIA-created educational media are licensed under the Creative Commons
+   Attribution 4.0 International License. See LICENSES/CC-BY-4.0.txt.
+
+3. Each complete Jupyter notebook contains material under both licenses.
+   Code cells are Apache-2.0; non-code cells are CC-BY-4.0. The combined
+   dual-license terms are in LICENSES/CC-BY-4.0-Apache2_Dual_License.txt.
+
+4. Third-party materials are not relicensed by NVIDIA. They remain under
+   the licenses identified in THIRD_PARTY_NOTICES.md and REUSE.toml.
+
+NVIDIA names, logos, and trademarks are not licensed for general reuse.

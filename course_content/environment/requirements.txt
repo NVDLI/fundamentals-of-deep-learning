@@ -1,0 +1,15 @@
+boto3==1.34.104
+datasets==5.0.0
+huggingface_hub==1.21.0
+kagglehub==1.0.2
+matplotlib==3.8.4
+opencv-python==4.9.0.80
+pandas==2.3.3
+sentencepiece==0.2.1
+sacremoses==0.1.1
+tables==3.9.2
+transformers==5.12.1
+testbook==0.4.2
+tqdm==4.66.3
+requests==2.32.2
+regex==2026.6.28

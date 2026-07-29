@@ -1,0 +1,17 @@
+Public-domain declaration for the ASL alphabet image
+
+The source file (https://commons.wikimedia.org/wiki/File:Asl_alphabet_gallaudet.png)
+is marked with the Creative Commons Public Domain Mark 1.0
+(https://creativecommons.org/publicdomain/mark/1.0/), indicating that the work
+is free of known copyright restrictions.
+
+The author, Ds13 (Darren Stone), released the work into the public domain
+worldwide. Where a public-domain dedication is not legally possible,
+the author granted permission to use the work for any purpose without
+conditions, except those required by law.
+
+Source:
+https://commons.wikimedia.org/wiki/File:Asl_alphabet_gallaudet.png
+
+Public Domain Mark 1.0:
+https://creativecommons.org/publicdomain/mark/1.0/

@@ -1,0 +1,16 @@
+# Dependencies
+/node_modules
+
+# Docusaurus build output
+/build
+/.docusaurus
+/public
+
+# docs/intro.md is generated from README.md at build time (prebuild hook).
+# The docs/ folder itself is free for hand-authored pages.
+/docs/intro.md
+
+# Misc
+.DS_Store
+*.log
+.env.local

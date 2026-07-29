@@ -1,0 +1,78 @@
+version = 1
+
+[[annotations]]
+path = "course_content/tutorials/*.ipynb"
+SPDX-FileCopyrightText = "2026 NVIDIA CORPORATION & AFFILIATES"
+SPDX-License-Identifier = "Apache-2.0 AND CC-BY-4.0"
+SPDX-FileComment = "Code cells are Apache-2.0. Markdown and raw cells are CC-BY-4.0. Combined dual-license terms in LICENSES/CC-BY-4.0-Apache2_Dual_License.txt."
+
+# A.jpg and B.jpg — ASL-HG dataset
+
+[[annotations]]
+path = [
+    "course_content/tutorials/images/A.jpg",
+    "course_content/tutorials/images/B.jpg"
+]
+SPDX-FileCopyrightText = "2025 Contributors to the ASL-HG dataset <https://doi.org/10.17632/j4y5w2c8w9.1>"
+SPDX-License-Identifier = "CC-BY-4.0"
+SPDX-FileComment = "Selected from the ASL-HG dataset and obtained through https://huggingface.co/datasets/juanjodurillo/asl-hg. Images were selected and prepared for course presentation."
+
+
+# asl.png — public domain
+
+[[annotations]]
+path = "course_content/tutorials/images/asl.png"
+SPDX-FileCopyrightText = "2004 Ds13 (Darren Stone)"
+SPDX-License-Identifier = "LicenseRef-Public-Domain"
+SPDX-FileComment = "Original public-domain PNG obtained from https://commons.wikimedia.org/wiki/File:Asl_alphabet_gallaudet.png. The original filename was changed to asl.png; the image content was not modified."
+
+
+# happy_dog.jpg — Wikimedia Commons
+
+[[annotations]]
+path = "course_content/tutorials/data/doggy_door_images/happy_dog.jpg"
+
+SPDX-FileCopyrightText = "Plank <https://commons.wikimedia.org/wiki/User:Plank>"
+SPDX-License-Identifier = "CC-BY-3.0"
+SPDX-FileComment = "Jack Russell Terrier photograph obtained from Wikimedia Commons and resized for course use."
+
+
+# mnist1.png — NVIDIA-created montage
+
+[[annotations]]
+path = "course_content/tutorials/images/mnist1.png"
+SPDX-FileCopyrightText = "2026 NVIDIA CORPORATION & AFFILIATES"
+SPDX-License-Identifier = "CC-BY-4.0"
+SPDX-FileContributor = "Yann LeCun, Corinna Cortes, and Christopher J. C. Burges — MNIST dataset"
+SPDX-FileComment = "NVIDIA-created selection and arrangement of MNIST samples obtained through torchvision.datasets.MNIST. CC-BY-4.0 covers NVIDIA's selection, arrangement, and presentation."
+
+[[annotations]]
+path = [
+    "course_content/tutorials/images/DLI_Header.png",
+    "course_content/tutorials/images/cnn.png",
+    "course_content/tutorials/images/conv2d.png",
+    "course_content/tutorials/images/dropout.png",
+    "course_content/tutorials/images/embedding.png",
+    "course_content/tutorials/images/jl_launcher.png",
+    "course_content/tutorials/images/maxpool2d.png"
+]
+SPDX-FileCopyrightText = "2026 NVIDIA CORPORATION & AFFILIATES"
+SPDX-License-Identifier = "CC-BY-4.0"
+SPDX-FileComment = "NVIDIA-created educational media. NVIDIA trademark rights are not licensed."
+
+[[annotations]]
+path = [
+    "course_content/tutorials/images/Penny.jpg",
+    "course_content/tutorials/data/doggy_door_images/brown_bear.jpg"
+]
+SPDX-FileCopyrightText = "Danielle Detering"
+SPDX-FileContributor = "Danielle Detering"
+SPDX-License-Identifier = "CC-BY-4.0"
+SPDX-FileComment = "Donated by the creator from the Penny the Corgi dataset: https://www.kaggle.com/datasets/danielledetering/penny-the-corgi."
+
+[[annotations]]
+path = "course_content/tutorials/data/doggy_door_images/sleepy_cat.jpg"
+SPDX-FileCopyrightText = "Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved."
+SPDX-FileContributor = "Vadim Kudlay"
+SPDX-License-Identifier = "CC-BY-4.0"
+SPDX-FileComment = "Original photograph taken by Vadim Kudlay (NVIDIA employee) and supplied with authorization for distribution under CC BY 4.0."

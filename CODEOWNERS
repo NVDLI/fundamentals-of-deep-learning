@@ -1,0 +1,11 @@
+# Code owners for the FDL course repository.
+#
+# Owners are intentionally left unset for now. Before enabling branch-protection
+# review requirements, add GitLab usernames after each pattern, e.g.:
+#
+#   *                       @your-team-handle
+#   /courses/               @course-maintainer
+#   /.gitlab-ci.yml         @ci-owner
+#
+# (A pattern with no owner has no effect, so no review is required until handles
+# are filled in.)
