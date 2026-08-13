@@ -52,7 +52,7 @@ cd course_content
 ```
 
 **Prerequisites:** Python 3.9+, an NVIDIA GPU with CUDA 11.8+ (CPU-only works
-but is slow for later notebooks), and conda or pip.
+but is slow for later notebooks), PyTorch 2.4.1 (or newer), and conda or pip. Then, install all the dependencies as follows. 
 
 ```bash
 pip install -r environment/requirements.txt
