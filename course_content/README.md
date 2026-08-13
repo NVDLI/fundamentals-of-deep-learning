@@ -89,12 +89,13 @@ Then open `http://localhost:8890/lab`.
 
 ## Run Locally with `pip`
 
-If you do not want to use Docker, create a Python virtual environment and install the dependencies from `environment/requirements.txt`.
+If you do not want to use Docker, create a Python virtual environment, install PyTorch 2.4.1 (or newer), and then install the dependencies from `environment/requirements.txt`.
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
+python -m pip install torch==2.4.1
 python -m pip install -r environment/requirements.txt
 ```
 
