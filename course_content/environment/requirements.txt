@@ -8,8 +8,8 @@ pandas==2.3.3
 sentencepiece==0.2.1
 sacremoses==0.1.1
 tables==3.9.2
-transformers==5.12.1
+transformers==5.17.0
 testbook==0.4.2
 tqdm==4.66.3
-requests==2.32.2
+requests==2.32.5
 regex==2026.6.28

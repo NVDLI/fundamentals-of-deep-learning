@@ -3,7 +3,7 @@
 
 # PyTorch + CUDA 11.8 + cuDNN 8 — requires NVIDIA GPU + nvidia-container-toolkit on the host
 # Run with: docker run --gpus all ...
-FROM pytorch/pytorch:2.4.1-cuda11.8-cudnn9-runtime
+FROM pytorch/pytorch:2.7.1-cuda11.8-cudnn9-runtime
 
 # Avoid interactive prompts during apt installs
 ENV DEBIAN_FRONTEND=noninteractive
@@ -21,8 +21,7 @@ COPY ./environment/requirements.txt .
 RUN pip install -r requirements.txt
 
 
-# Uncomment the following to upgrade to latest jupyterlab
-RUN pip install --upgrade jupyterlab==4.2.0
+RUN pip install --upgrade jupyterlab==4.6.2
 RUN pip install ipywidgets==8.1.2
 
 ENV SHELL=/bin/bash
