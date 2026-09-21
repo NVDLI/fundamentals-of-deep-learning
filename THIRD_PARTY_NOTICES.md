@@ -25,13 +25,13 @@ from each project's official repository.
 | sentencepiece | 0.2.1 | Apache-2.0 | https://github.com/google/sentencepiece |
 | sacremoses | 0.1.1 | MIT | https://github.com/alvations/sacremoses |
 | tables | 3.9.2 | BSD-3-Clause | https://github.com/PyTables/PyTables |
-| transformers | 5.12.1 | Apache-2.0 | https://github.com/huggingface/transformers |
+| transformers | 5.17.0 | Apache-2.0 | https://github.com/huggingface/transformers |
 | testbook | 0.4.2 | BSD-3-Clause | https://github.com/nteract/testbook |
 | tqdm | 4.66.3 | MIT AND MPL-2.0 | https://github.com/tqdm/tqdm |
-| requests | 2.32.2 | Apache-2.0 | https://github.com/psf/requests |
+| requests | 2.32.5 | Apache-2.0 | https://github.com/psf/requests |
 | regex | 2026.6.28 | Apache-2.0 | https://github.com/mrabarnett/mrab-regex |
 
-> **Note:** The PyTorch base image (`pytorch/pytorch:2.4.1-cuda11.8-cudnn9-runtime`)
+> **Note:** The PyTorch base image (`pytorch/pytorch:2.7.1-cuda11.8-cudnn9-runtime`)
 > is provided by the PyTorch project under the BSD-3-Clause license and by NVIDIA
 > under the NVIDIA Deep Learning Container License. It is not redistributed by this
 > project; users pull it directly from Docker Hub.
