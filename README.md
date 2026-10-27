@@ -4,9 +4,11 @@
 
 Fundamentals of Deep Learning is an open-source, hands-on course from the NVIDIA Deep Learning Institute (DLI) that introduces neural networks, convolutional architectures, and transfer learning through interactive Jupyter notebooks.
 
+Explore the full catalog of NVIDIA DLI courses and training opportunities on our [training homepage](https://www.nvidia.com/en-us/training/?ncid=progr-100243-vt07). 
+
 ## Learning Outcomes
 
-In these labs, learners will:
+In this course, learners will:
 
 - Build and train neural networks using PyTorch on real image datasets
 - Apply convolutional neural networks (CNNs) to image classification tasks
