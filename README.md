@@ -4,7 +4,7 @@
 
 Fundamentals of Deep Learning is an open-source, hands-on course from the NVIDIA Deep Learning Institute (DLI) that introduces neural networks, convolutional architectures, and transfer learning through interactive Jupyter notebooks.
 
-Explore the full catalog of NVIDIA DLI courses and training opportunities on our [training homepage](https://www.nvidia.com/en-us/training/?ncid=progr-100243-vt07). 
+Explore the full catalog of NVIDIA DLI courses and training opportunities on our [training homepage](https://www.nvidia.com/en-us/training/?ncid=progr-100243-vt07).
 
 ## Learning Outcomes
 
@@ -18,14 +18,14 @@ In this course, learners will:
 
 ## Course Modules
 
-| # | Module | Slide Deck | Notebooks |
-|---|---|----------|--------|
-| 01 | An Introduction to Deep Learning | [slides_01.pptx](./course_content/slides/slides_01.pptx) | [01_mnist.ipynb](./course_content/tutorials/01_mnist.ipynb) |
-| 02 | How a Neural Network Trains | [slides_02.pptx](./course_content/slides/slides_02.pptx) | [02_asl.ipynb](./course_content/tutorials/02_asl.ipynb) |
-| 03 | Convolutional Neural Networks | [slides_03.pptx](./course_content/slides/slides_03.pptx) | [03_asl_cnn.ipynb](./course_content/tutorials/03_asl_cnn.ipynb) |
-| 04 | Data Augmentation and Deployment | [slides_04.pptx](./course_content/slides/slides_04.pptx) | [04a_asl_augmentation.ipynb](./course_content/tutorials/04a_asl_augmentation.ipynb) <br> [04b_asl_predictions.ipynb](./course_content/tutorials/04b_asl_predictions.ipynb) |
-| 05 | Pre-Trained Models | [slides_05.pptx](./course_content/slides/slides_05.pptx) | [05a_doggy_door.ipynb](./course_content/tutorials/05a_doggy_door.ipynb) <br> [05b_corgi_door.ipynb](./course_content/tutorials/05b_corgi_door.ipynb) |
-| 06 | Advanced Architectures | [slides_06.pptx](./course_content/slides/slides_06.pptx) | [06_nlp.ipynb](./course_content/tutorials/06_nlp.ipynb)  |
+| # | Module | Slide Deck | Notebooks | Open in Colab |
+|---|---|---|---|---|
+| 01 | An Introduction to Deep Learning | [slides_01.pptx](./course_content/slides/slides_01.pptx) | [01_mnist.ipynb](./course_content/tutorials/01_mnist.ipynb) | [MNIST ↗](https://colab.research.google.com/github/NVDLI/fundamentals-of-deep-learning/blob/main/course_content/tutorials/01_mnist.ipynb) |
+| 02 | How a Neural Network Trains | [slides_02.pptx](./course_content/slides/slides_02.pptx) | [02_asl.ipynb](./course_content/tutorials/02_asl.ipynb) | [ASL ↗](https://colab.research.google.com/github/NVDLI/fundamentals-of-deep-learning/blob/main/course_content/tutorials/02_asl.ipynb) |
+| 03 | Convolutional Neural Networks | [slides_03.pptx](./course_content/slides/slides_03.pptx) | [03_asl_cnn.ipynb](./course_content/tutorials/03_asl_cnn.ipynb) | [ASL CNN ↗](https://colab.research.google.com/github/NVDLI/fundamentals-of-deep-learning/blob/main/course_content/tutorials/03_asl_cnn.ipynb) |
+| 04 | Data Augmentation and Deployment | [slides_04.pptx](./course_content/slides/slides_04.pptx) | [04a_asl_augmentation.ipynb](./course_content/tutorials/04a_asl_augmentation.ipynb) <br> [04b_asl_predictions.ipynb](./course_content/tutorials/04b_asl_predictions.ipynb) | [Augmentation ↗](https://colab.research.google.com/github/NVDLI/fundamentals-of-deep-learning/blob/main/course_content/tutorials/04a_asl_augmentation.ipynb) <br> [Predictions ↗](https://colab.research.google.com/github/NVDLI/fundamentals-of-deep-learning/blob/main/course_content/tutorials/04b_asl_predictions.ipynb) |
+| 05 | Pre-Trained Models | [slides_05.pptx](./course_content/slides/slides_05.pptx) | [05a_doggy_door.ipynb](./course_content/tutorials/05a_doggy_door.ipynb) <br> [05b_corgi_door.ipynb](./course_content/tutorials/05b_corgi_door.ipynb) | [Doggy Door ↗](https://colab.research.google.com/github/NVDLI/fundamentals-of-deep-learning/blob/main/course_content/tutorials/05a_doggy_door.ipynb) <br> [Corgi Door ↗](https://colab.research.google.com/github/NVDLI/fundamentals-of-deep-learning/blob/main/course_content/tutorials/05b_corgi_door.ipynb) |
+| 06 | Advanced Architectures | [slides_06.pptx](./course_content/slides/slides_06.pptx) | [06_nlp.ipynb](./course_content/tutorials/06_nlp.ipynb) | [NLP ↗](https://colab.research.google.com/github/NVDLI/fundamentals-of-deep-learning/blob/main/course_content/tutorials/06_nlp.ipynb) |
 
 ## Usage
 

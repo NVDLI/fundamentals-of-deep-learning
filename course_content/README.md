@@ -51,6 +51,39 @@ Contains the course notebooks:
 - `06_nlp.ipynb`: Natural language processing with sequence data.
 - `utils.py`: Shared helper code used by the notebooks.
 
+## Run in Google Colab
+
+**Only run the Setup for Google Colab cell if you are using Google Colab.**
+In other environments, skip it and continue with the lesson.
+
+Open a course notebook using a Colab link, select a GPU under **Runtime → Change
+runtime type**, and run the **Setup for Google Colab** cell. The setup code is collapsed
+in Colab and also runs when choosing **Run all**. It installs only missing
+packages needed by that lab and downloads its support files. Continue when
+the cell displays **Course ready**.
+
+Run setup again after starting a new runtime. Re-running it in the same runtime
+reuses installed packages and existing support files, and preserves files
+created during the lesson.
+
+| Lab | Support files downloaded from GitHub |
+|---|---|
+| 01 MNIST | None; torchvision downloads the dataset |
+| 02 ASL | `data/data.py` |
+| 03 CNN | `data/data.py` |
+| 04a Augmentation | `utils.py`, `data/data.py` |
+| 04b Predictions | `utils.py`, `images/A.jpg`, `images/B.jpg` |
+| 05a Doggy Door | `data/imagenet_class_index.json` and the three images in `data/doggy_door_images/` |
+| 05b Corgi Door | `utils.py`, `data/data.py` |
+| 06 NLP | None; transformers downloads the models and tokenizer |
+
+Markdown illustrations load directly from GitHub. Lab 4b also needs
+`model.pth`: generate it in Lab 4a, download it, and upload it to Lab 4b's Colab
+session as explained in that notebook. Setup does not download or overwrite it.
+
+The setup cell does nothing outside Google Colab. Docker and local installations
+continue to use `environment/requirements.txt`.
+
 ## Run with Docker
 
 From this directory, build the image:
