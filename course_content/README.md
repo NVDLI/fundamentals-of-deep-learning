@@ -146,6 +146,42 @@ sh environment/entrypoint.sh
 
 JupyterLab will print a local URL in the terminal. Open that URL in your browser, then select a notebook from the file browser.
 
+## Try Activity tracking locally on stage
+
+This optional pilot requires NVIDIA VPN access to download the SDK wheel and
+reach the stage API. Complete the local course setup above first. From
+`course_content/`, install JupyterLab 4.6.2 and the SDK into the same active
+Python environment. The SDK requires JupyterLab `>=4.6.2,<4.7`.
+
+```bash
+python -m pip install jupyterlab==4.6.2
+python -m pip install --no-deps --require-hashes -r environment/requirements-activity-stage.txt
+python -m jupyterlab tutorials --ServerApp.ip=localhost --ServerApp.port=8888 --ServerApp.port_retries=0
+```
+
+Open the token URL printed by JupyterLab, using `http://localhost:8888` as the
+origin. Stage registers this exact origin. If port 8888 is occupied, stop the
+other server before starting this one.
+
+In JupyterLab, open **Settings → Settings Editor → DLI Activity** and set these
+three fields. Use the JSON Settings Editor if needed.
+
+```json
+{
+  "baseUrl": "https://activity-api.stage.learn.nvidia.com",
+  "artifactId": "fundamentals-of-deep-learning",
+  "artifactVersion": "main"
+}
+```
+
+Save the settings and reload JupyterLab. Then open `01_mnist.ipynb` and run the lesson through the
+training loop under **1.7.5 The Training Loop**. Successful execution of the cell
+with the `dli:complete:01:mnist-trained` tag creates an anonymous stage session
+and sends milestone `01:mnist-trained`.
+
+This pilot has no progress panel, session persistence across page reloads, or
+overall course completion. Keep these settings for stage use only.
+
 ## Notes
 
 - Some notebooks may download datasets or pre-trained model files the first time they run.

@@ -1,0 +1,5 @@
+# SPDX-FileCopyrightText: 2026 NVIDIA CORPORATION & AFFILIATES
+# SPDX-License-Identifier: Apache-2.0
+
+nvidia-dli-activity-sdk-jupyter @ https://d2c74cyr2e9yrt.cloudfront.net/activity-sdk/jupyter/0.4.0/nvidia_dli_activity_sdk_jupyter-0.4.0-py3-none-any.whl \
+    --hash=sha256:354b6855f208fa73feddbb632373d11f7f5a0b8c29ca47e3c5f28c3cd914fdec
